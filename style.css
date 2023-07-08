@@ -115,6 +115,11 @@ section{
     width: 584px;
     height: 676px;
 }
+.banner-contact-btn{
+    background: #FFF8F3;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
 
 
 /* About Section Start */
