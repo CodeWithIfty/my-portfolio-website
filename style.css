@@ -7,3 +7,89 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Mostly Design */
+.btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.description{
+    color: #757575;
+    font-size: 18px;;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Header Section Start */
+.header-section{
+    background: #FFF8F3;
+    height: 770px; 
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
+
+/* Navbar Styling start */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+    /* margin: 0px 200px; */
+    padding: 33px 150px 0px 200px  ;
+}
+.logo-text{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-container > ul {
+    display: flex;
+    align-items: center;
+}
+.nav-container > ul > li{
+    margin-right: 25px;
+    list-style: none;
+}
+.nav-container > ul > li > a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-container > ul > li > .nav-btn{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    /* margin: 0px 200px; */
+    padding: 0px 40px 0px 200px;
+}
+.greting-txt{
+    color:  #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.header-title{
+    color:  #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.header-banner-img{
+    width: 584px;
+    height: 676px;
+}
